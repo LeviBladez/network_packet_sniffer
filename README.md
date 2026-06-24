@@ -28,13 +28,17 @@ Because raw sockets bypass the standard operating system networking stack, **thi
 1. Open your Command Prompt (cmd) or PowerShell as **Administrator**.  
 2. Navigate to the project directory.  
 3. Run the script:  
-   ```python main.py```
+   ```
+   python main.py
+   ```
 
 ### **Running on Linux / macOS**
 
 1. Open your terminal.  
 2. Run the script using sudo:  
-   ```sudo python3 main.py```
+   ```
+   sudo python3 main.py
+   ```
 
 *(Note: macOS heavily restricts raw socket capture natively. Windows or Linux environments are highly recommended for the best experience).*
 
